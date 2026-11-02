@@ -27,7 +27,7 @@ export async function POST(req: Request) {
       });
       aiProvider = google;
       if (!model || !model.startsWith("gemini")) {
-        model = "gemini-3.5-flash";
+        model = "gemini-1.5-flash";
       }
     } else if (provider === "Ollama") {
       apiKey = "ollama";
@@ -50,7 +50,7 @@ export async function POST(req: Request) {
         apiKey: apiKey,
       });
       aiProvider = google;
-      model = "gemini-3.5-flash";
+      model = "gemini-1.5-flash";
     }
 
     if (!apiKey && provider !== "Ollama") {

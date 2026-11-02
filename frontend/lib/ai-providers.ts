@@ -14,9 +14,9 @@ export const AI_PROVIDERS: AIProvider[] = [
     id: "Gemini",
     name: "Google Gemini",
     models: [
-      { id: "gemini-3.5-flash", name: "Gemini 3.5 Flash (Recommended)" },
-      { id: "gemini-3.5-flash-lite", name: "Gemini 3.5 Flash-Lite (High Speed)" },
-      { id: "gemini-3.8-flash", name: "Gemini 3.8 Flash (High Intelligence)" },
+      { id: "gemini-1.5-flash", name: "Gemini 1.5 Flash (Recommended)" },
+      { id: "gemini-1.5-pro", name: "Gemini 1.5 Pro (High Quality)" },
+      { id: "gemini-2.0-flash", name: "Gemini 2.0 Flash (Latest)" },
     ],
   },
   {
