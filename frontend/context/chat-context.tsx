@@ -53,7 +53,7 @@ export function ChatProvider({ children }: { children: ReactNode }) {
   const [currentChatId, setCurrentChatId] = useState<string | null>(null);
   const [isSending, setIsSending] = useState(false);
   const [selectedProvider, setSelectedProviderState] = useState("Gemini");
-  const [selectedModel, setSelectedModelState] = useState("gemini-3.5-flash");
+  const [selectedModel, setSelectedModelState] = useState("gemini-1.5-flash");
   const [searchTerm, setSearchTerm] = useState("");
   const [contentType, setContentType] = useState<ContentType>("chats");
   const [userInput, setUserInput] = useState("");
@@ -73,7 +73,7 @@ export function ChatProvider({ children }: { children: ReactNode }) {
       if (savedModel && (savedModel.startsWith("gemini-") || savedModel.startsWith("llama"))) {
         setSelectedModelState(savedModel);
       } else {
-        setSelectedModelState("gemini-3.5-flash");
+        setSelectedModelState("gemini-1.5-flash");
       }
     } catch (_) {}
   }, []);
