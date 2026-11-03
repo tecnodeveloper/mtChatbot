@@ -41,3 +41,8 @@ node_modules/
 **/node_modules/
 .next/
 **/.next/
+
+# Personal notes & local tooling (not part of the project)
+MEMORY.md
+learning-reference.md
+.commandcode/

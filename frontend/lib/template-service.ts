@@ -70,7 +70,7 @@ const INITIAL_SYSTEM_TEMPLATES: Template[] = [
       "Your AI coding partner for writing clean code, debugging issues, optimizing performance, and solving complex programming problems.",
     category: "Coding Assistant",
     provider: "Gemini",
-    model: "gemini-3.5-flash",
+    model: "gemini-1.5-flash",
     systemPrompt:
       "You are Code Guru Assistant, an expert AI programming partner and senior software engineer. " +
       "Help developers write clean, robust, and maintainable code across modern languages and frameworks (Python, TypeScript, JavaScript, Go, Rust, C++, Java, React, Next.js, and SQL). " +
@@ -94,7 +94,7 @@ const INITIAL_SYSTEM_TEMPLATES: Template[] = [
       "Expert assistant for classical ML workflows — feature engineering, model selection, hyperparameter tuning, evaluation metrics, and deployment pipelines.",
     category: "Machine Learning",
     provider: "Gemini",
-    model: "gemini-3.5-flash",
+    model: "gemini-1.5-flash",
     systemPrompt:
       "You are a senior Machine Learning engineer and educator. " +
       "Help users with end-to-end ML workflows including data preprocessing, feature engineering, exploratory data analysis, " +
@@ -121,7 +121,7 @@ const INITIAL_SYSTEM_TEMPLATES: Template[] = [
       "Advanced deep learning assistant for neural network architecture design, training optimization, and state-of-the-art model implementation.",
     category: "Deep Learning",
     provider: "Gemini",
-    model: "gemini-3.5-flash",
+    model: "gemini-1.5-flash",
     systemPrompt:
       "You are an expert Deep Learning researcher and practitioner. " +
       "Assist users with neural network architecture design (CNNs, RNNs, LSTMs, GRUs, Transformers, GANs, VAEs, Diffusion Models), " +
@@ -149,7 +149,7 @@ const INITIAL_SYSTEM_TEMPLATES: Template[] = [
       "Specialized assistant for healthcare AI applications — clinical NLP, medical imaging, EHR analysis, drug discovery, and regulatory compliance.",
     category: "Healthcare AI",
     provider: "Gemini",
-    model: "gemini-3.5-flash",
+    model: "gemini-1.5-flash",
     systemPrompt:
       "You are a Healthcare AI specialist with expertise in medical informatics, clinical decision support, and biomedical data science. " +
       "Assist users with clinical NLP (entity recognition, relation extraction from medical notes), " +
@@ -178,7 +178,7 @@ const INITIAL_SYSTEM_TEMPLATES: Template[] = [
       "Expert assistant for AI applications in power systems — load forecasting, grid optimization, renewable energy integration, and smart grid analytics.",
     category: "Power Systems",
     provider: "Gemini",
-    model: "gemini-3.5-flash",
+    model: "gemini-1.5-flash",
     systemPrompt:
       "You are a Power Systems AI engineer with deep expertise in electrical grid modeling and energy analytics. " +
       "Assist users with load forecasting (short-term, medium-term, long-term using LSTM, Prophet, gradient boosting), " +
@@ -206,7 +206,7 @@ const INITIAL_SYSTEM_TEMPLATES: Template[] = [
       "Comprehensive assistant for AI-powered e-commerce — recommendation engines, dynamic pricing, customer segmentation, fraud detection, and conversion optimization.",
     category: "E-commerce AI",
     provider: "Gemini",
-    model: "gemini-3.5-flash",
+    model: "gemini-1.5-flash",
     systemPrompt:
       "You are an E-commerce AI strategist with expertise in personalization, revenue optimization, and customer intelligence. " +
       "Assist users with recommendation systems (collaborative filtering, content-based, hybrid, session-based, and graph neural network approaches), " +
