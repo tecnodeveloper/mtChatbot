@@ -26,7 +26,7 @@ export const CreatePresetModal: FC<CreatePresetModalProps> = ({
   onSave,
 }) => {
   const [name, setName] = useState("");
-  const [model, setModel] = useState("gemini-3.5-flash");
+  const [model, setModel] = useState("gemini-1.5-flash");
   const [prompt, setPrompt] = useState("");
   const [temperature, setTemperature] = useState(0.7);
 
